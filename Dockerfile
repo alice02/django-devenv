@@ -4,3 +4,5 @@ RUN mkdir /usr/local/apps
 WORKDIR /usr/local/apps
 ADD requirements.txt .
 RUN pip install -r requirements.txt
+
+EXPOSE 8000
